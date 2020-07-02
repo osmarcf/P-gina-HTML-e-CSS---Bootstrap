@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 10;
+}
+#topo{
+    height: 100px;
+    background-color: aquamarine; 
+
+}
+#menu ul{
+    background-color: rgba(0,0,255,0.7);
+}
+#menu ul li{
+    display: inline-table; 
+    padding: 20px 30px;
+    cursor:pointer;
+}
+#menu ul li:hover{
+    background-color:rgba(0,0,0,0.5);
+}
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#conteudo{
+    background-color: gray;
+    min-width: 335px;
+}
+#rodape{
+    height: 80px;
+    background-color: aquamarine;
+    position:absolute;
+    bottom: 0px;
+    width: 100%;}
+    
+
+    
